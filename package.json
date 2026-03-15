@@ -1,6 +1,6 @@
 {
   "name": "use-justified-layout",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Flickr's justified-layout in a React hook",
   "author": "Alan Morales",
   "repository": {
@@ -46,6 +46,7 @@
   "module": "./dist/use-justified-layout.es.js",
   "exports": {
     ".": {
+      "types": "./dist/lib/main.d.ts",
       "import": "./dist/use-justified-layout.es.js",
       "require": "./dist/use-justified-layout.umd.js"
     }
